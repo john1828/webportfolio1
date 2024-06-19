@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Luxurious Roman', sans-serif;
 }
 #main {
 	background:linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(./images/angels.jpg);
@@ -11,7 +12,7 @@
 	color: white;
 }
 #navbar {
-	background-color:rgba(192,192,192,0.3);
+	background-color:rgba(192,192,192,0.5);
 }
 
 
@@ -19,13 +20,20 @@
 	text-align: center
 }
 #projects {
-	background-color:rgba(192,192,192,0.5);
+	background-color:rgba(181, 144, 102, .5);
 	color: #765C3D;
 }
 #tools {
-	background-color:rgba(192,192,192,0.5);
+	background-color:rgba(181, 144, 102, .5);
 	color: #765C3D;
 	text-align: center;
+}
+#contact{
+	background:linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(./images/angels2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
 }
 
 #navLogo {
@@ -33,9 +41,38 @@
 	weight: 50px;
 	border-radius: 150px;
 }
+#form-btn {
+  padding: 12px 32px 12px 32px;
+  gap: 8px;
+  border-radius: 999px;
+  background-color: #b59066;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+}
+#modalDiv {
+	color: #765C3D;
+	font-weight: 600;
+}
+h1 {
+	font-weight: 700;
+}
+footer {
+  background-color:rgba(181, 144, 102, .5);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+  color: #765C3D;
+}
 nav .dropdown-img {
 	height: 50px;
 	weight: 50px;
+}
+#navbar a {
+	color: #765C3D !important;
+	font-weight: 800;
 }
 #landing img {
 	border-style: inset;
@@ -48,4 +85,7 @@ nav .dropdown-img {
 	width: 19rem;
 	height: 20rem;
 }
-
+#contact img{
+	height: 100px;
+	weight: 100px;
+}

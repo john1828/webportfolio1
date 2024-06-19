@@ -6,6 +6,9 @@
 	<title>John Leyson || Developer Portfolio</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Luxurious+Roman&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -19,33 +22,32 @@
 		</header> 
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light container px-5 my-3" id="navbar">
-			<a class="navbar-brand d-lg-none" href="#" ><img src="./images/logo.png" id="navLogo"></a>
+			<a class="navbar-brand d-lg-none" href="#dp" ><img src="./images/logo.png" id="navLogo"></a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-lg-auto mb-2">
 					<li class="nav-item">
-						<a class="nav-link active text-light" aria-current="page" href="#landing">Home</a>
+						<a class="nav-link active" aria-current="page" href="#landing">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active text-light" href="#projects">Projects</a>
+						<a class="nav-link active" href="#projects">Projects</a>
 					</li>
 				</ul>
 				<a href="#dp" class="d-none d-lg-block"><img src="./images/logo.png" id="navLogo"></a>
 				<ul class="navbar-nav me-lg-auto mb-2">
 					<li class="nav-item">
-						<a class="nav-link active text-light" href="#">Contacts</a>
+						<a class="nav-link active" href="#tools">Tools</a>
 					</li>
 					<li class="nav-item dropdown">
-						<a class="nav-link active text-light dropdown-toggle" href="#tools" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tools
-						</a>
-						<ul class="dropdown-menu dropdown-menu-light text-center" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#"><img src="./images/html.png" class="dropdown-img"></a></li>
-							<li><a class="dropdown-item" href="#"><img src="./images/css.png" class="dropdown-img"></a></li>
-							<li><a class="dropdown-item" href="#"><img src="./images/bootstrap.png" class="dropdown-img"></a></li>
+						<a class="nav-link active dropdown-toggle" href="#contact" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+						<ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="https://www.facebook.com/johnemerson.leyson" target="_blank"><img src="./images/fb.png" class="dropdown-img"></a></li>
+							<li><a class="dropdown-item" href="http://linkedin.com/in/john-emerson-leyson-29259114b" target="_blank"><img src="./images/linkedIn.png" class="dropdown-img"></a></li>
+							<li><a class="dropdown-item" href="https://github.com/john1828" target="_blank"><img src="./images/github.png" class="dropdown-img"></a></li>
 							<li><hr class="dropdown-divider"></li>
-							<li><a class="dropdown-item" href="#tools">All Tools</a></li>
+							<li><a class="dropdown-item" href="#exampleFormControlTextarea1">Message Us</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -113,13 +115,13 @@
 				<h1>Tools</h1>
 					<div class="row py-5">
 						<div class="col-md-4 mb-5">
-							<img src="./images/html.png" class="img-fluid">
+							<a href="https://www.w3schools.com/html/" target="_blank"><img src="./images/html.png" class="img-fluid"></a>
 						</div>
 						<div class="col-md-4 mb-5">
-							<img src="./images/css.png" class="img-fluid">
+							<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank"><img src="./images/bootstrap.png" class="img-fluid"></a>
 						</div>
 						<div class="col-md-4 mb-5">
-							<img src="./images/bootstrap.png" class="img-fluid">
+							<a href="https://www.w3schools.com/css/default.asp" target="_blank"><img src="./images/css.png" class="img-fluid"></a>
 						</div>
 					</div>
 			</div>
@@ -127,21 +129,56 @@
 	</div>
 	<!-- End of Tools Section -->
 	<!-- Contact Section -->	
-	<div id="contact">
-		
-		
-	</div>
-
-
-
-
-
-
-
-
-				
-
-
-				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-			</body>
-			</html>
+	<div id="contact" class="container-fluid">
+		<div class="container">
+			<h1 class="text-center pt-5">Contact</h1>
+			<div class="row">
+				<div class="col-md-6 d-flex d-md-grid gap-5 justify-content-center align-items-center">
+					<a href="https://www.facebook.com/johnemerson.leyson" target="_blank" class="my-5"><img src="./images/fb.png"></a>
+					<a href="http://linkedin.com/in/john-emerson-leyson-29259114b" target="_blank" class="my-5"><img src="./images/linkedIn.png"></a>
+					<a href="https://github.com/john1828" target="_blank" class="my-5"><img src="./images/github.png"></a>
+				</div>
+				<div class="col-md-6 d-grid text-start align-content-center mb-5" id="form">
+					<h2 id="contact-header" class="text-center">Message Us</h2>
+					<form>
+						<div class="form-group my-4">
+							<label for="exampleFormControlInput1">Name</label>
+							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe" required/>
+						</div>
+						<div class="form-group my-4">
+							<label for="exampleFormControlInput2">Email Address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="john.doe@mail.com" required/>
+						</div>
+						<div class="form-group my-4">
+							<label for="exampleFormControlTextarea1">Message</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="6" required></textarea>
+						</div>
+						<div class="d-md-flex justify-content-md-end">
+							<button id="form-btn" type="button" class="btn" data-bs-toggle="modal"
+                  data-bs-target="#modalDiv">Submit</button>
+						</div>
+					</form>
+					<div class="modal fade" id="modalDiv" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          	<div class="modal-dialog">
+            	<div class="modal-content">
+              	<div class="modal-header">
+                	<h6 class="modal-title" id="modalDivLabel">Thank you for contacting us!</h6>
+                	<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              	</div>
+              	<div class="modal-body text-center">Message Successfully Sent</div>
+              	<div class="modal-footer">
+                	<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              	</div>
+            	</div>
+          	</div>
+        	</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!-- End of Contact Section -->	
+	<footer class="py-3"> 2024 | All rights reserved. </footer>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
