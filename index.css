@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main {
+	background:linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(./images/angels.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+}
+#navbar {
+	background-color:rgba(192,192,192,0.3);
+}
+
+
+#landing {
+	text-align: center
+}
+#projects {
+	background-color:rgba(192,192,192,0.5);
+	color: #765C3D;
+}
+#tools {
+	background-color:rgba(192,192,192,0.5);
+	color: #765C3D;
+	text-align: center;
+}
+
+#navLogo {
+	height: 50px;
+	weight: 50px;
+	border-radius: 150px;
+}
+nav .dropdown-img {
+	height: 50px;
+	weight: 50px;
+}
+#landing img {
+	border-style: inset;
+}
+.card > img {
+	width: 19rem;
+	height: 16rem;
+}
+#tools img {
+	width: 19rem;
+	height: 20rem;
+}
+
